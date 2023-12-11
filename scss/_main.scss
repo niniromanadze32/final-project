@@ -47,3 +47,38 @@ nav {
         padding: 0.5rem 0;
     }
 }
+
+.Email{
+    width: 227px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+}
+.Phone{
+    width: 227px;
+    display: flex;
+    flex-direction:column ;
+    margin-left: 35px;
+}
+.Location{
+    width: 227px;
+    display: flex;
+    flex-direction:column ;
+    margin-left: 35px;
+}
+.contacts{
+    width: 1150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 37px;
+}
+.circle{
+    width: 67px;
+    height: 67px;
+    background-color: rgba(89, 104, 244, 1);
+    border-radius: 50%;
+    padding: 19px 13px;
+    margin-left: 79px;
+    display: flex;
+    justify-content: center;}
