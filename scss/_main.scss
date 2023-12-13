@@ -5,7 +5,7 @@ body {
 }
 /* Header styles */
 header {
-    background-color: #3a06f8;
+    background-color: rgb(3, 3, 3);
     padding: 1rem 0;
 }
 nav {
@@ -21,13 +21,38 @@ nav {
 }
 .nav-item {
     padding: 0 1rem;
+    vertical-align: middle;
 }
-.nav-item a {
-    color: #fff;
-    text-decoration: none;}
+
+.nav-item{ a {
+    color: white;
+    text-decoration: none;
+    font-family: "BPG Banner SuperSquare", sans-serif;
+    font-weight: 75px; }
+}
 .nav-item a:hover {
-    text-decoration: underline;
-}
+    font-size: 20px;
+    color: red;}
+.search-input {
+        margin-left: 93px;
+        width: 100%;
+        padding: 10px;
+        border-radius: 70px;
+        outline: none;
+        transition: box-shadow 0.3s ease;
+        vertical-align: middle;
+    }
+
+
+    
+ .search-input:hover {
+        box-shadow: 0 2px 5px rgba(236, 16, 16, 0.863);
+    }
+    
+ .carousel-inner{
+    height: 530px;
+ }
+
 /* Responsive styles */
 @media screen and (max-width: 768px) {
     .nav-list {
@@ -37,4 +62,29 @@ nav {
     .nav-item {
         padding: 0.5rem 0;
     }
+}
+.Email{
+    width: 227px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+}
+.Phone{
+    width: 227px;
+    display: flex;
+    flex-direction:column ;
+    margin-left: 35px;
+}
+.Location{
+    width: 227px;
+    display: flex;
+    flex-direction:column ;
+    margin-left: 35px;
+}
+.contacts{
+    width: 1150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 37px;
 }
